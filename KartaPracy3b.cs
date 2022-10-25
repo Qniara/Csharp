@@ -52,11 +52,32 @@
     //    Console.WriteLine(suma);
     //}
     //Zad.8
-    int w0 = int.Parse(Console.ReadLine());
-    int l = int.Parse(Console.ReadLine());
-    int w = w0;
-    for (int i = w0; i <= l; i++)
-    {
-        w = w * 0.6 + w;
-    }
+    //int kpo = int.Parse(Console.ReadLine());
+    //int l = int.Parse(Console.ReadLine());
+    //int m = l * 12;
+    //int kko=kpo;
+    //for (int i = 1; i <= m; i++)
+    //{
+    //    kko = kko + kko * 0.005;
+    //}
+    //Console.Writeline(kko);
+
+    //Zad.9
+    //int n = int.Parse(Console.Readline());
+    //int suma;
+    //for (int i = 0; i <= n; i++)
+    //{
+    //    i = i * 100 + 21;
+    //    suma = suma + i;
+    //}
+    //Console.Readline(suma);
+
+    //Zad.10
+    //for (int i = 0; i < 1001; i++)
+    //{
+    //    if (i ^ 0.5 == i % 10 || i ^ 0.5 == i % 100)
+    //    {
+    //        Console.Writeline(i);
+    //    }
+    //}
 }
