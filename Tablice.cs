@@ -47,15 +47,15 @@
 //Console.WriteLine(mini);
 
 //Tablica
-int n =10;
-int pocz = 1;
-int kon = 20;
-int[] K=new int[n];
-Random r = new Random();
-for (int i = 0; i < n; i++)
-{
-    K[i] = r.Next(pocz,kon);
-}
+//int n =10;
+//int pocz = 1;
+//int kon = 20;
+//int[] K=new int[n];
+//Random r = new Random();
+//for (int i = 0; i < n; i++)
+//{
+//    K[i] = r.Next(pocz,kon);
+//}
 //for (int i = 0; i < n; i++)
 //{
 //    Console.WriteLine(J[i]+" ");
@@ -217,4 +217,70 @@ for (int i = 0; i < n; i++)
 //    {
 //        vcemaks = T[i];
 //    }
+//}
+//int[] K = new int[100];
+//Random r = new Random();
+//for (int i = 0; i < K.Length; i++)
+//{
+//    K[i] = r.Next(10, 100);
+//}
+//int suma = 0;
+//int sum = 0;
+//for (int i = 10; i<K.Length; i++)
+//{
+//    if (K[i] % 2 == 0)
+//    {
+//        suma = suma + i;
+//    }
+//}   else sum += 1;
+//Console.WriteLine(suma + " " + sum);
+
+// Tablice dwuwymiarowe 
+// Inicjowanie tablicy
+//int[,] T2D = new int[5,5];
+//for (int i = 0; i < 5; i++)
+//{
+//    for (int j = 0; j < 5; j++)
+//    {
+//        Console.WriteLine(T2D[i,j] + "\t");
+//    }
+//    Console.WriteLine();
+//}
+
+// Zadeklaruj macierz ala sudoku
+//int[,] M = new int[,]{{ 1, 2, 3 },{4,5,6},{7,8,9}};
+// macierz 4x4
+//int[,] M = new int[4,4];
+//Random r = new Random();
+//for (int i = 0; i < 4; i++)
+//{
+//    for (int j = 0; j < 4; j++)
+//    {
+//        Console.WriteLine(M[i, j] + "\t");
+//    }
+//    Console.WriteLine();
+//}
+//Wymiary macierzy
+//int[,] M = new int[3, 5];
+/*Console.WriteLine(M.Length);*/ // w tym wypadku 3*5
+/*Console.WriteLine(M.GetLength(0));*/ // Get Length - zwraca liczbe na danym wymiarze tablicy
+// Macierz x - wiersze, macierz y - kolumny
+
+// wypełnic macierz 3x5 liczbami dwucyfrowymi korzystając z get length
+//int[,] M = new int[3, 5];
+//Random r = new Random();
+//for (int i = 0; i < M.GetLength(0); i++)
+//{
+//    for (int j = 0; j < M.GetLength(1); j++)
+//    {
+//        M[i, j] = r.Next(0, 10);
+//    }
+//}
+//for (int i = 0; i < M.GetLength(0); i++)
+//{
+//    for (int j = 0; j < M.GetLength(1); j++)
+//    {
+//            Console.Write(M[i, j]+"\t");
+//    }
+//    Console.WriteLine();
 //}
