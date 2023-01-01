@@ -73,3 +73,27 @@
 //{
 //    Console.WriteLine("Podane liczby nie sa wzglednie pierwsze");
 //}
+//Zad.5
+//int m = int.Parse(Console.ReadLine());
+//int x = 0;
+//int y = 0;
+//for (int i= 10; i < 20; i++)
+//{
+//    x = m;
+//    y = i;
+//    while (x != y)
+//    {
+//        if (x > y)
+//        {
+//            x = x - y;
+//        }
+//        else
+//        {
+//            y = y - x;
+//        }
+//    }
+//    if (x == 1)
+//    {
+//        Console.WriteLine(i + " ");
+//    }
+//}
