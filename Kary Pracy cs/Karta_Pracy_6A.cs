@@ -15,3 +15,21 @@
 ////    suma = suma + x;
 ////}
 //Console.WriteLine(suma);
+//Zad.2
+//int n = int.Parse(Console.ReadLine());
+//int flaga = 1;
+//for(int i = 2; i < n; i++)
+//{
+//    if (n % i == 0)
+//    {
+//        flaga = 0;
+//    }
+//}
+//if (flaga == 1)
+//    {
+//        Console.WriteLine("Podana liczba jest pierwsza.");
+//    }
+//else
+//{
+//        Console.WriteLine("Podana liczba nie jest pierwsza.");
+//}
