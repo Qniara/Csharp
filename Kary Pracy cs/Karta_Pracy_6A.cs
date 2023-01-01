@@ -33,3 +33,21 @@
 //{
 //        Console.WriteLine("Podana liczba nie jest pierwsza.");
 //}
+//Zad.3
+//int suma = 0;
+//int n = int.Parse(Console.ReadLine());
+//for (int i = 1; i < n; i++)
+//{
+//    if (n % i == 0)
+//    {
+//        suma = suma + i;
+//    }
+//}
+//if (n == suma)
+//{
+//    Console.WriteLine("Podana liczba jest doskonala");
+//}
+//else
+//{
+//    Console.WriteLine("Podana liczba nie jest doskonała");
+//}
