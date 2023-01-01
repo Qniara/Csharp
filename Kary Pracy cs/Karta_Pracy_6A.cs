@@ -51,3 +51,25 @@
 //{
 //    Console.WriteLine("Podana liczba nie jest doskonała");
 //}
+//Zad.4
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//while (a != b)
+//{
+//    if (a > b)
+//    {
+//        a = a - b;
+//    }
+//    else
+//    {
+//        b = b - a;
+//    }
+//}
+//if (a == 1)
+//{
+//    Console.WriteLine("Podane liczby sa wzglednie pierwsze");
+//}
+//else
+//{
+//    Console.WriteLine("Podane liczby nie sa wzglednie pierwsze");
+//}
