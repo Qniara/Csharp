@@ -1,7 +1,16 @@
 //Zad.1
 //Zczytywanie liczb z pliku
-//StreamReader sr = new StreamReader("c:\\poligon\\przykład.txt"/*sciezka do pliku*/);
-//for (int i=0; i < 500; i++)
+StreamReader sr = new StreamReader("C:\\Users\\uczen\\przyklad.txt");
+int[] T = new int[500];
+for (int i = 0; i < 500; i++)
+{
+    T[i] = int.Parse(sr.ReadLine());
+}
+for(int i = 0; i < 500; i++)
+{
+    Console.Write(T[i] + "\t");
+}
+//while (!sr.EndOfStream)
 //{
 //    Console.WriteLine(sr.ReadLine() + " ");
 //}
