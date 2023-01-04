@@ -1,0 +1,7 @@
+//Zad.1
+//Zczytywanie liczb z pliku
+//StreamReader sr = new StreamReader("c:\\poligon\\przykład.txt"/*sciezka do pliku*/);
+//for (int i=0; i < 500; i++)
+//{
+//    Console.WriteLine(sr.ReadLine() + " ");
+//}
