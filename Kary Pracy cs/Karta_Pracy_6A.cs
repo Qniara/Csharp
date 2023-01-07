@@ -116,3 +116,24 @@
 //a = a / x;
 //b = b / x;
 //Console.WriteLine(a + "/" + b);
+//Zad.7
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = a / b;
+//a = a - c * b;
+//int x = a;
+//int y = b;
+//while(x != y)
+//{
+//    if (x > y)
+//    {
+//        x = x - y;
+//    }
+//    else
+//    {
+//        y = y - x;
+//    }
+//}
+//a = a / x;
+//b = b / x;
+//Console.WriteLine(c+" "+a+"/"+b);
