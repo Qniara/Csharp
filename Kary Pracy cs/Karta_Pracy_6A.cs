@@ -97,3 +97,22 @@
 //        Console.WriteLine(i + " ");
 //    }
 //}
+//Zad.6
+//int a= int.Parse(Console.ReadLine());
+//int b= int.Parse(Console.ReadLine());
+//int x = a;
+//int y = b;
+//while (x != y)
+//{
+//    if (x > y)
+//    {
+//        x = x - y;
+//    }
+//    else
+//    {
+//        y = y - x;
+//    }
+//}
+//a = a / x;
+//b = b / x;
+//Console.WriteLine(a + "/" + b);
