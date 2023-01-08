@@ -1,4 +1,4 @@
-//Zad.1 - do sprawdzenia jeszcze
+ //Zad.1 - do sprawdzenia jeszcze
 //int suma = 0;
 //int n = int.Parse(Console.ReadLine());
 //int x = n;
