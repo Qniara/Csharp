@@ -164,6 +164,24 @@
 //        }
 //    }
 //}
+//Zad.9
+//int x = 0;
+//int y = 1;
+//for(int i = 10; i < 100; i++)
+//{
+//    x = i / 2;
+//    for(int j = 2; j < x; j++)
+//    {
+//        if (x % j == 0)
+//        {
+//            y = 0;
+//        }
+//    }
+//    if (y == 1)
+//    {
+//        Console.WriteLine(i + " ");
+//    }
+//}
 //Zad.10
 //int n = int.Parse(Console.ReadLine());
 //int x = n + 2;
