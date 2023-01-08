@@ -164,3 +164,29 @@
 //        }
 //    }
 //}
+//Zad.10
+//int n = int.Parse(Console.ReadLine());
+//int x = n + 2;
+//int a = 1;
+//for(int i= 2; i < n; i++)
+//{
+//    if (n % i == 0)
+//    {
+//        a = 0;
+//    }
+//}
+//for(int j=2; j < x; j++)
+//{
+//    if (x % j == 0)
+//    {
+//        a = 0;
+//    }
+//}
+//if (a == 0)
+//{
+//    Console.WriteLine("Podana liczba nie jest przepierwsze");
+//}
+//else
+//{
+//    Console.WriteLine("Podana liczba jest przepierwsze");
+//}
