@@ -137,3 +137,30 @@
 //a = a / x;
 //b = b / x;
 //Console.WriteLine(c+" "+a+"/"+b);
+//Zad.8
+//int a = 0;
+//int b = 0;
+//for(int i = 0; i < 10000; i++)
+//{
+//    for(int j= 0; j < 10000; i++)
+//    {
+//        for (int n = 1; n < i; n++)
+//        {
+//            if (i % n == 0)
+//            {
+//                a = a + n;
+//            }
+//        }
+//        for(int m=1; m < j; m++)
+//        {
+//            if (j % m == 0)
+//            {
+//                b = b + m;
+//            }
+//        }
+//        if(b==i && a == j)
+//        {
+//            Console.Write(i + " " + j);
+//        }
+//    }
+//}
