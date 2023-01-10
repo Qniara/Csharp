@@ -6,11 +6,31 @@
 //int y = b - a;
 //int k = a - b;
 //int l = b - c;
-//if(x == y || k==l)
+//int n = c / b;
+//int m = b / a;
+//int e = a / b;
+//int d = b / c;
+//if (x == y || k == l)
 //{
-//    Console.Write("Podany ciag jest arytmetyczny.");
+//    Console.WriteLine("Podany ciag jest arytmetyczny.");
 //}
 //else
 //{
-//    Console.Write("Podany ciag nie jest arytmetyczny");
+//    Console.WriteLine("Podany ciag nie jest arytmetyczny");
+//}
+//if(n==m || e == d)
+//{
+//    Console.WriteLine("Podany ciag jest geometryczny");
+//}
+//else
+//{
+//    Console.WriteLine("Podany ciag nie jest geometryczny");
+//}
+//if (a > c)
+//{
+//    Console.WriteLine("Podany ciag jest malejacy");
+//}
+//else if (a < c)
+//{
+//    Console.WriteLine("Podany ciag jest rosnacy");
 //}
