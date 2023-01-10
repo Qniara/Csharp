@@ -44,3 +44,20 @@
 //    }
 //}
 //Console.WriteLine(suma);
+//Zad.16  -> Chyba działa (chyba)
+//int n = int.Parse(Console.ReadLine());
+//int a = 0;
+//int b = 1;
+//int temp = 0;
+//int licznik = 1;
+//double mianownik = 1;
+//for(double i=0; i < n; i++)
+//{
+//    i = Math.Pow(2,i);
+//    temp = a + b;
+//    a = b;
+//    b = temp;
+//    mianownik = mianownik * i;
+//    licznik = licznik * temp;
+//}
+//Console.WriteLine(licznik+"/"+mianownik);
