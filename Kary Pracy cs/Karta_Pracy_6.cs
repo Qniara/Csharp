@@ -44,6 +44,24 @@
 //    }
 //}
 //Console.WriteLine(suma);
+//Zad.3
+//int x = 0;
+//int ilo = 0;
+//for(int i = 10; i < 100; i++)
+//{
+//    if (i % 7 == 0)
+//    {
+//        x = i;
+//    }
+//}
+//for(int j = 1000; j < 10000; j++)
+//{
+//    if (j % x == 0)
+//    {
+//        ilo = ilo + 1;
+//    }
+//}
+//Console.WriteLine(ilo);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
