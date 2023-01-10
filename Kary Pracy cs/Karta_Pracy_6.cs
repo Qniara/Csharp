@@ -44,6 +44,16 @@
 //    }
 //}
 //Console.WriteLine(suma);
+//Zad.15 -> logicznie rzecz bioronc działa
+//int n = int.Parse(Console.ReadLine());
+//double m = 1;
+//int l = 3;
+//for(double i = 0; i < n; i++)
+//{
+//    m = m * m + (Math.Pow(2, i));
+//    l = l * l + 1;
+//}
+//Console.WriteLine(l+"/"+m);
 //Zad.16  -> Chyba działa (chyba)
 //int n = int.Parse(Console.ReadLine());
 //int a = 0;
