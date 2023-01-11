@@ -116,6 +116,21 @@
 //    }
 //}
 //Console.WriteLine(suma);
+//Zad.8
+//int n=int.Parse(Console.ReadLine());
+//int suma = 0;
+//for(int i = -1; i < n * 3; i = i + 3)
+//{
+//    if(i%2 == 0)
+//    {
+//        suma = suma + i;
+//    }
+//    else if(i%2 == 1)
+//    {
+//        suma = suma - i;
+//    }
+//}
+//Console.WriteLine(suma);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
