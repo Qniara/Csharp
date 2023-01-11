@@ -131,6 +131,23 @@
 //    }
 //}
 //Console.WriteLine(suma);
+//Zad.9
+//double ilo = 1;
+//double x = 0;
+//int n=int.Parse(Console.ReadLine());
+//for(double i = 0; i < n; i++)
+//{
+//    x = Math.Pow(2, i);
+//    if (i % 2 == 1)
+//    {
+//        ilo = ilo * (-1 * x);
+//    }
+//    else if(i % 2 == 0)
+//    {
+//        ilo = ilo * x;
+//    }
+//}
+//Console.WriteLine(ilo);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
