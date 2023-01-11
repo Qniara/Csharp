@@ -89,3 +89,17 @@
 //    licznik = licznik * temp;
 //}
 //Console.WriteLine(licznik+"/"+mianownik);
+//Zad.4
+//int ilo = 0;
+//int x = 0;
+//int y = 0;
+//for(int i = 10; i < 100; i++)
+//{
+//    x = i % 10;
+//    y = i % 100 - x;
+//    if(y >= x*2)
+//    {
+//        ilo = ilo + 1;
+//    }
+//}
+//Console.WriteLine(ilo);
