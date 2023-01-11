@@ -148,6 +148,19 @@
 //    }
 //}
 //Console.WriteLine(ilo);
+//Zad.10
+//int suma = 0;
+//int ilo = 1;
+//int n=int.Parse(Console.ReadLine());
+//for(int i = 1; i <= n; i++)
+//{
+//    for(int j = 1; j < i; j++)
+//    {
+//        ilo = ilo * j;
+//    }
+//    suma = suma + ilo;
+//}
+//Console.WriteLine(suma);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
