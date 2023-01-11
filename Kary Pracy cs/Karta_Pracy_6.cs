@@ -105,6 +105,17 @@
 //    }
 //}
 //Console.WriteLine(suma);
+//Zad.7
+//int n=int.Parse(Console.ReadLine());
+//int suma = 0;
+//for(int i = 999; i > 999 - 37 * n; i--)
+//{
+//    if (i % 37 == 0)
+//    {
+//        suma = suma + i;
+//    }
+//}
+//Console.WriteLine(suma);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
