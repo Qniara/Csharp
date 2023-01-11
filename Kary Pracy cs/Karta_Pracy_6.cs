@@ -161,6 +161,20 @@
 //    suma = suma + ilo;
 //}
 //Console.WriteLine(suma);
+//Zad.11
+//int n=int.Parse(Console.ReadLine());
+//float l = 0;
+//float m = 0;
+//int x = 0;
+//float suma = 0;
+//for(int i = 1; i <= n; i=i+2)
+//{
+//    x = x + i;
+//    l = l + i;
+//    m = m + x;
+//}
+//suma = suma + (l / m);
+//Console.WriteLine(suma);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
