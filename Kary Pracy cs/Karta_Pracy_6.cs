@@ -76,6 +76,24 @@
 //    }
 //}
 //Console.WriteLine(ilo);
+//Zad.5
+//int suma = 0;
+//int ilo = 0;
+//int x = 0;
+//int y = 0;
+//int z = 0;
+//for(int i = 100; i < 1000; i++)
+//{
+//    x = i % 10;
+//    y = i % 100 - x;
+//    z = i % 1000 - y - x;
+//    if (z > y + x)
+//    {
+//        suma = suma + i;
+//        ilo = ilo + 1;
+//    }
+//}
+//Console.WriteLine(suma+" i "+ilo);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
