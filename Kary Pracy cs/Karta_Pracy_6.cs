@@ -175,6 +175,18 @@
 //}
 //suma = suma + (l / m);
 //Console.WriteLine(suma);
+//Zad.12
+//int l = 0;
+//int m = 0;
+//int x = 0;
+//int n=int.Parse(Console.ReadLine());
+//for(int i = 1; i <= n; i = i + 2)
+//{
+//    x = x + i;
+//    m = m + x;
+//    l = l + i;
+//}
+//Console.WriteLine(l+"/"+m);
 //Zad.15 -> logicznie rzecz bioronc działa
 //int n = int.Parse(Console.ReadLine());
 //double m = 1;
