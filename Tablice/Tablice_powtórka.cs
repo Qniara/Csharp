@@ -37,3 +37,13 @@
 //    }
 //}
 //Console.WriteLine(maks);
+//Minimalna wartość w tablicy
+//int min= 101;
+//for(int i = 1; i < T.Length; i++)
+//{
+//    if (T[i] < min)
+//    {
+//        min = T[i];
+//    }
+//}
+//Console.WriteLine(min);
