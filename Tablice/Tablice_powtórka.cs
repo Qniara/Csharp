@@ -109,3 +109,11 @@
 //}
 //maks = maks - mini;
 //Console.WriteLine(maks);
+
+//Suma liczb w tablicy
+//int suma = 0;
+//for(int i=0;i<T.Length; i++)
+//{
+//    suma = suma + T[i];
+//}
+//Console.WriteLine(suma);
