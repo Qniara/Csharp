@@ -12,6 +12,7 @@
 //{
 //    Console.WriteLine(T[i]);
 //}
+
 //// Robienie randomowej tablicy
 //int[] K= new int[4];
 //Random r = new Random();
@@ -21,12 +22,14 @@
 //    Console.WriteLine(K[i]);
 //}
 //2.ZADANIA
+
 //int[] T = new int[5];
 //Random r = new Random();
 //for(int j = 0; j < 5; j++)
 //{
 //    T[j] = r.Next(1,100);
 //}
+
 //Maksymalna wartość w tablicy
 //int maks = 0;
 //for(int i = 0; i < T.Length; i++)
@@ -37,6 +40,7 @@
 //    }
 //}
 //Console.WriteLine(maks);
+
 //Minimalna wartość w tablicy
 //int min= 101;
 //for(int i = 1; i < T.Length; i++)
@@ -47,3 +51,22 @@
 //    }
 //}
 //Console.WriteLine(min);
+
+//Ile razy występuje największa liczba w tablicy
+//int maks = 0;
+//int lb = 0;
+//for(int i = 1; i < T.Length; i++)
+//{
+//    if (T[i] > maks)
+//    {
+//        maks=T[i];
+//    }
+//}
+//for (int c = 1; c < T.Length; c++)
+//{
+//    if(T[c] == maks)
+//    {
+//        lb = lb + 1;
+//    }
+//}
+//Console.WriteLine(lb);
