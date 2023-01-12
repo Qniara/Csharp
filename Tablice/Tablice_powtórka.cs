@@ -70,3 +70,22 @@
 //    }
 //}
 //Console.WriteLine(lb);
+
+//Ile razy występuje minimalna wartość w tablicy
+//int lb = 0;
+//int mini = 101;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    if(T[i] < mini)
+//    {
+//        mini = T[i];
+//    }
+//}
+//for(int c = 0; c < T.Length; c++)
+//{
+//    if (T[c] == mini)
+//    {
+//        lb++;
+//    }
+//}
+//Console.WriteLine(lb);
