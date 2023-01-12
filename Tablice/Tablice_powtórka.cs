@@ -28,3 +28,12 @@
 //    T[j] = r.Next(1,100);
 //}
 //Maksymalna wartość w tablicy
+//int maks = 0;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    if (T[i] > maks)
+//    {
+//        maks = T[i];
+//    }
+//}
+//Console.WriteLine(maks);
