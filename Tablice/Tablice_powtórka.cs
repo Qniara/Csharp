@@ -20,3 +20,11 @@
 //    K[i] = r.Next();
 //    Console.WriteLine(K[i]);
 //}
+//2.ZADANIA
+//int[] T = new int[5];
+//Random r = new Random();
+//for(int j = 0; j < 5; j++)
+//{
+//    T[j] = r.Next(1,100);
+//}
+//Maksymalna wartość w tablicy
