@@ -21,3 +21,10 @@
 //    return x + y;
 //}
 //Console.WriteLine(suma2(2, 3));
+
+// Napisz funkcje dajaca rabat (cena, rabat) na towar
+//double dajrabat(double cena, double rabat)
+//{
+//    return cena * (1 - rabat / 100);
+//}
+//Console.WriteLine(dajrabat(100, 10));
