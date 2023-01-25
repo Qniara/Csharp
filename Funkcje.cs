@@ -7,3 +7,11 @@ void przywitaj()
 {
     Console.WriteLine("No elo elo");
 }
+przywitaj();
+
+//Napisz funkcje ktora oblicza sume przekazanych przez parametr 3 liczb
+void suma(int a, int b)
+{
+    Console.WriteLine(a + b);
+}
+suma(3, 7);
