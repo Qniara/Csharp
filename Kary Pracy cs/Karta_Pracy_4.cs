@@ -25,3 +25,13 @@
 //    return a*a + b*b;
 //}
 //Console.WriteLine(suma(2, 4));
+
+// Iloczyn 3 liczb
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+//int ilo(int x, int y, int z)
+//{
+//    return x * y * z;
+//}
+//Console.Write(ilo(a, b, c));
