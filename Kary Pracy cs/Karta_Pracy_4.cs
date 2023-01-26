@@ -35,3 +35,12 @@
 //    return x * y * z;
 //}
 //Console.Write(ilo(a, b, c));
+
+//Kwadrat sumy
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int suma(int x, int y)
+//{
+//    return (x + y) * (x + y);
+//}
+//Console.WriteLine(suma(a,b));
