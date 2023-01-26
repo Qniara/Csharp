@@ -10,11 +10,17 @@
 //        {
 //            a = a - b;
 //        }
-//        else if(b>a)
+//        else if (b > a)
 //        {
 //            b = b - a;
 //        }
 //    }
 //    return a;
 //}
-//Console.WriteLine(NWD);
+//NWD(a,b);
+//Suma kwadratów a i b
+//double suma(double a, double b)
+//{
+//    return a*a + b*b;
+//}
+//Console.WriteLine(suma(2, 4));
