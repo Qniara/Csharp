@@ -44,3 +44,16 @@
 //    return (x + y) * (x + y);
 //}
 //Console.WriteLine(suma(a,b));
+
+//Sprawdzenie czy liczba jest podzielna przez 3
+//int a = int.Parse(Console.ReadLine());
+//bool spr(int x)
+//{
+//    bool y = false;
+//    if (x % 3 == 0)
+//    {
+//        y = true;
+//    }
+//    return y;
+//}
+//Console.WriteLine(spr(a));
