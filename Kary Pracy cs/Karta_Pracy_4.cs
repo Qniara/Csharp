@@ -18,6 +18,7 @@
 //    return a;
 //}
 //NWD(a,b);
+
 //Suma kwadratów a i b
 //double suma(double a, double b)
 //{
