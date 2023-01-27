@@ -57,3 +57,19 @@
 //    return y;
 //}
 //Console.WriteLine(spr(a));
+
+//Zad.2
+//int n = int.Parse(Console.ReadLine());
+//int lb()
+//{
+//    int x = 0;
+//    int suma = 0;
+//    while (n > 0)
+//    {
+//        x = n % 10;
+//        n = n / 10;
+//        suma = suma + x;
+//    }
+//    return suma;
+//}
+//Console.WriteLine(lb());
