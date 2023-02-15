@@ -51,3 +51,19 @@
 //    }
 //}
 //Console.WriteLine("\n");
+
+//Arraylist
+//using System.Collections;
+//ArrayList A=new ArrayList();
+//A.Add(5);
+//A.Add(7);
+//A.Add(19);
+//A.Add(7);
+//A.Add(56);
+//A.Remove(7);
+//A.RemoveAt(1);
+//foreach(int i in A)
+//{
+//    Console.Write(i + " ");
+//}
+//Console.WriteLine();
