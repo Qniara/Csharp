@@ -22,17 +22,32 @@
 //Console.WriteLine("\n");
 
 //Tablice dwuwymiarowe
-int[,] M = new int[2, 3];
-M[0, 0] = 3;
-M[0, 1] = 4;
-M[0, 2] = 5;
-M[1, 0] = 8;
-M[1, 1] = 9;
-M[1, 2] = 10;
+//int[,] M = new int[2, 3];
+//M[0, 0] = 3;
+//M[0, 1] = 4;
+//M[0, 2] = 5;
+//M[1, 0] = 8;
+//M[1, 1] = 9;
+//M[1, 2] = 10;
 
-int[,] N = new int[4,3] { { 2, 3, 4 }, { 7, 8, 9 }, { 13, 14, 15 }, { 21, 31, 41 } };
-for(int i = 0; i < N.Length; i++) //0-11
-{
-    Console.Write(N[i / 3, i % 3] + " ");
-}
-Console.WriteLine("\n");
+//int[,] N = new int[4,3] { { 2, 3, 4 }, { 7, 8, 9 }, { 13, 14, 15 }, { 21, 31, 41 } };
+//for(int i = 0; i < N.Length; i++) //0-11
+//{
+//    Console.Write(N[i / N.GetLength(1), i % N.GetLength(1)] + " ");
+//}
+//Console.WriteLine("\n");
+
+//foreach (var item in N)
+//{
+//    Console.Write(item + " ");
+//}
+//Console.WriteLine("\n");
+
+//for(int i = 0; i < N.GetLength(0); i++)
+//{
+//    for (int j =0; j < N.GetLength(1); j++)
+//    {
+//        Console.Write(N[i, j] + "\t");
+//    }
+//}
+//Console.WriteLine("\n");
