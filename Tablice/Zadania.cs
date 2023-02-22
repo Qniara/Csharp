@@ -31,3 +31,18 @@
 
 //Zad.3
 //Wygeneruj liste 12 losowych liczb dwucyfrowych podzielnych przez 7
+//int[] T = new int[12];
+//int x = 1;
+//Random r = new Random();
+//while (x < 12)
+//{
+//    for (int i = 1; i < 13; i++)
+//    {
+//        T[i] = r.Next(10, 100);
+//        if (T[i] % 7 == 0)
+//        {
+//            Console.WriteLine(x + ". " + T[i]);
+//            x = x + 1;
+//        }
+//    }
+//}
