@@ -17,16 +17,31 @@
 //}
 
 //Zad.2
-//Wygeneruj tablice 20 dowolnych liczb 2cyfrowych i zaokrąglij każdą w góre do pełnej 10
+//Wygeneruj tablice 20 dowolnych liczb 2cyfrowych i zaokrąglij każdą w góre do pełnej 10;
 //int[] T = new int[20];
 //int x = 0;
+//int n = 0;
 //Random r = new Random();
 //for (int i = 1; i < 21; i++)
 //{
 //    T[i] = r.Next(10, 100);
-//    x = 10 - T[i];
-//    T[i] = T[i] + x;
-//    Console.WriteLine(i + ". " + T[i] + " ");
+//    x = 10 - (T[i] % 10);
+//    n = T[i] + x;
+//    Console.WriteLine(T[i]+" "+n);
+//}
+
+//Nie działa XD
+//int[] T = new int[20];
+//Random r = new Random();
+//for (int i = 0; i < T.Length; i++)
+//{
+//    T[i] = r.Next(10, 100);
+//    Console.WriteLine(T[i] + " ");
+//    if(T[i] % 10 != 0)
+//    {
+//        T[i] = (T[i] / 10) * 10;
+//    }
+//    Console.WriteLine(T[i]);
 //}
 
 //Zad.3
