@@ -26,3 +26,23 @@ for (int t = 0; t < 40; t++)
 //    }
 //}
 //Console.WriteLine(mini);
+
+//Zad.3
+//int mini = 101;
+//int maks = 0;
+//for (int i = 0; i < T.Length; i++)
+//{
+//    if (maks < T[i])
+//    {
+//        maks = T[i];
+//    }
+//}
+//for (int j = 0; j < T.Length; j++)
+//{
+//    if (mini > T[j])
+//    {
+//        mini = T[j];
+//    }
+//}
+//maks = maks - mini;
+//Console.WriteLine(maks);
