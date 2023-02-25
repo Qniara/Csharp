@@ -15,3 +15,14 @@ for (int t = 0; t < 40; t++)
 //    }
 //}
 //Console.WriteLine(maks);
+
+//Zad.2
+//int mini = 101;
+//for (int i = 0; i < T.Length; i++)
+//{
+//    if (mini > T[i])
+//    {
+//        mini = T[i];
+//    }
+//}
+//Console.WriteLine(mini);
