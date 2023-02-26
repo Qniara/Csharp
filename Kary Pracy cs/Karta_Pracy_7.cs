@@ -105,3 +105,11 @@ for (int t = 0; t < 40; t++)
 //}
 //suma = suma / 40;
 //Console.WriteLine(Math.Round(suma,1));
+
+//Zad.10
+//int suma = 0;
+//for (int i = 0; i < T.Length; i = i + 2)
+//{
+//    suma++;
+//}
+//Console.WriteLine(suma);
