@@ -46,3 +46,22 @@ for (int t = 0; t < 40; t++)
 //}
 //maks = maks - mini;
 //Console.WriteLine(maks);
+
+//Zad.6
+//int maks = 0;
+//int ilo = 0;
+//for (int i = 0; i < T.Length; i++)
+//{
+//    if (maks < T[i])
+//    {
+//        maks = T[i];
+//    }
+//}
+//for (int j= 0; j < T.Length;j++)
+//{
+//    if (maks == T[j])
+//    {
+//        ilo += 1;
+//    }
+//}
+//Console.WriteLine(ilo);
