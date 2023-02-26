@@ -86,6 +86,18 @@ for (int t = 0; t < 40; t++)
 //Console.WriteLine(ilo);
 
 //Zad.8
+//int n =int.Parse(Console.ReadLine());
+//int ilo = 0;
+//for (int j = 0; j < T.Length; j++)
+//{
+//    if (n == T[j])
+//    {
+//        ilo += 1;
+//    }
+//}
+//Console.WriteLine(ilo);
+
+//Zad.9
 //double suma = 0;
 //for (int i=0; i <T.Length; i++)
 //{
