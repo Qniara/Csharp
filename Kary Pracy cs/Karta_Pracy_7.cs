@@ -65,3 +65,22 @@ for (int t = 0; t < 40; t++)
 //    }
 //}
 //Console.WriteLine(ilo);
+
+//Zad.7
+//int ilo = 0;
+//int mini = 101;
+//for (int i = 0; i < T.Length; i++)
+//{
+//    if (mini > T[i])
+//    {
+//        mini = T[i];
+//    }
+//}
+//for (int j = 0; j < T.Length; j++)
+//{
+//    if (mini == T[j])
+//    {
+//        ilo += 1;
+//    }
+//}
+//Console.WriteLine(ilo);
