@@ -84,3 +84,12 @@ for (int t = 0; t < 40; t++)
 //    }
 //}
 //Console.WriteLine(ilo);
+
+//Zad.8
+//double suma = 0;
+//for (int i=0; i <T.Length; i++)
+//{
+//    suma += T[i];
+//}
+//suma = suma / 40;
+//Console.WriteLine(Math.Round(suma,1));
