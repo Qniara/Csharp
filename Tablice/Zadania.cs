@@ -79,3 +79,29 @@
 //{
 //    Console.WriteLine(item + " ");
 //} 
+
+//Zad.2
+//bool czypie(int n)
+//{
+//    for(int i = 0; i < n; i++)
+//    {
+//        if (n % i == 0)
+//        {
+//            return false;
+//        }
+//    }
+//    return true;
+//}
+//int[] T = new int[20];
+//Random r = new Random();
+//int n = 0;
+//int x = 0;
+//while (n < 20)
+//{
+//    x = r.Next(100, 1000);
+//    if(czypie(x)==false && x%2==1 && x % 3 != 0)
+//    {
+//        T[n] = x;
+//        n++;
+//    }
+//}
