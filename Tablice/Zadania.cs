@@ -105,3 +105,25 @@
 //        n++;
 //    }
 //}
+
+//Zad.3
+//Random r = new Random();
+//int[] T = new int[40];
+//int suma = 0;
+//int x = 0;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    T[i] = r.Next(10, 100);
+//    for (int j=0; j<T.Length; j++)
+//    {
+//        if (T[i] == T[j])
+//        {
+//            x = x + 1;
+//        }
+//    }
+//    if (x > 1)
+//    {
+//        suma = suma + T[i];
+//    }
+//}
+//Console.WriteLine(suma);
