@@ -39,7 +39,7 @@
 //int[] T = new int[20];
 //for(int i = 0; i < T.Length; i++)
 //{
-//    x = r.Next();
+//    x = r.Next(100,1000);
 //    if(F(x)==false && x%2==1 && x % 3 != 0 && x % 5 != 0 && x % 7 != 0)
 //    {
 //        T[i] = x;
