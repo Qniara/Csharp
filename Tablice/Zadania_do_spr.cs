@@ -49,3 +49,24 @@
 //{
 //    Console.Write(T[j] + " ");
 //}
+
+//Zad.3
+//Random r= new Random();
+//int[] T = new int[40];
+//int suma = 0;
+//int ilo = 0;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    for(int j = 1; j <= T.Length; j++)
+//    {
+//        if (T[i] == T[j])
+//        {
+//            ilo += 1;
+//        }
+//    }
+//    if (ilo == 1)
+//    {
+//        suma += T[i];
+//    }
+//}
+//Console.WriteLine(suma);
