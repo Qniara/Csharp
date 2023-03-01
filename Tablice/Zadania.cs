@@ -127,3 +127,42 @@
 //    }
 //}
 //Console.WriteLine(suma);
+
+//Zad.4
+//int[,] T = new int[11,11];
+//Random r = new Random();
+//int suma = 0;
+//for (int i = 0; i < T.GetLength(0); i++)
+//{
+//    for(int j=0; j < T.GetLength(1); j++)
+//    {
+//        T[i, j] = r.Next(0, 10);
+//        if (i == j || i + j == 10)
+//        {
+//            suma = suma + T[i, j];
+//        }
+//    }
+//}
+
+//Zad.5
+//int[,] T = new int[11, 11];
+//Random r = new Random();
+//for (int i = 0; i < T.GetLength(0); i++)
+//{
+//    for (int j = 0; j < T.GetLength(1); j++)
+//    {
+//        T[i, j] = r.Next(0, 10);
+//        if (i == 10 || j == 10 || i == 0 || j==0)
+//        {
+//            Console.Write(T[i, j]);
+//        }
+//        else if (i == 10)
+//        {
+//            Console.Write("\t");
+//        }
+//        else
+//        {
+//            Console.Write(" ");
+//        }
+//    }
+//}
