@@ -206,3 +206,27 @@ Console.WriteLine(" ");
 //    }
 //}
 //Console.WriteLine(ilo);
+
+//Zad.15
+//int a = 0;
+//int b = 0;
+//int x = 0;
+//int maks = 0;
+//for (int i = 1; i < T.Length; i++)
+//{
+//    a = T[i - 1];
+//    b = T[i];
+//    if (a < b)
+//    {
+//        x++;
+//        if (x > maks)
+//        {
+//            maks = x;
+//        }
+//    }
+//    else
+//    {
+//        x = 0;
+//    }
+//}
+//Console.WriteLine(maks);
