@@ -186,3 +186,23 @@ Console.WriteLine(" ");
 //    }
 //    x = true;
 //}
+
+//Zad.14
+//int ilo = 0;
+//bool x =true;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    for(int j = 1; j < T.Length; j++)
+//    {
+//        if (T[i] == T[j])
+//        {
+//            x = false;
+//        }
+//        if (x == false)
+//        {
+//            ilo += 1;
+//        }
+//        x=true;
+//    }
+//}
+//Console.WriteLine(ilo);
