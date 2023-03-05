@@ -125,4 +125,15 @@ for (int t = 0; t < 40; t++)
 //{
 //    suma++;
 //}
+//Console.WriteLine(suma);,
+
+//Zad.10 - sposób 2
+//int suma = 0;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    if(i==0 || i % 2 == 0)
+//    {
+//        suma = suma + T[i];
+//    }
+//}
 //Console.WriteLine(suma);
