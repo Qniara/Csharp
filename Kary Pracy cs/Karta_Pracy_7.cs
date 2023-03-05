@@ -137,3 +137,14 @@ for (int t = 0; t < 40; t++)
 //    }
 //}
 //Console.WriteLine(suma);
+
+//Zad.11
+//int x = 0;
+//int suma = 0;
+//for(int i = 1; i < T.Length; i = i + 2)
+//{
+//    suma += T[i];
+//    x=x + 1;
+//}
+//suma = suma / x;
+//Console.WriteLine(suma);
