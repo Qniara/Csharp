@@ -1,5 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
-
 int[] T = new int[40];
 Random r = new Random();
 for (int t = 0; t < 40; t++)
