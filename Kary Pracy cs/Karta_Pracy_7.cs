@@ -1,3 +1,5 @@
+using System.Security.Cryptography.X509Certificates;
+
 int[] T = new int[40];
 Random r = new Random();
 for (int t = 0; t < 40; t++)
@@ -5,6 +7,7 @@ for (int t = 0; t < 40; t++)
     T[t] = r.Next(10,100);
     Console.Write(T[t] + " ");
 }
+Console.WriteLine(" ");
 //Zad.1
 //int maks = 0;
 //for (int i = 0; i < T.Length; i++)
@@ -125,7 +128,7 @@ for (int t = 0; t < 40; t++)
 //{
 //    suma++;
 //}
-//Console.WriteLine(suma);,
+//Console.WriteLine(suma);
 
 //Zad.10 - sposób 2
 //int suma = 0;
@@ -167,3 +170,21 @@ for (int t = 0; t < 40; t++)
 //    }
 //}
 //Console.WriteLine(ilo);
+
+//Zad.13
+//bool x = true;
+//for(int i = 10; i < 100; i++)
+//{
+//    for(int j = 0; j < T.Length; j++)
+//    {
+//        if (i == T[j])
+//        {
+//            x = false;
+//        }
+//    }
+//    if (x == true)
+//    {
+//        Console.Write(i + " ");
+//    }
+//    x = true;
+//}
