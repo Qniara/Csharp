@@ -148,3 +148,22 @@ for (int t = 0; t < 40; t++)
 //}
 //suma = suma / x;
 //Console.WriteLine(suma);
+
+//Zad.12 -> chyba działa XD
+//int ilo = 0;
+//int x = 0;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    for(int j = 1; j < T.Length; j++)
+//    {
+//        if (T[i] == T[j])
+//        {
+//            x++;
+//        }
+//    }
+//    if (x > 1)
+//    {
+//        ilo++;
+//    }
+//}
+//Console.WriteLine(ilo);
