@@ -47,6 +47,19 @@ for (int t = 0; t < 40; t++)
 //maks = maks - mini;
 //Console.WriteLine(maks);
 
+//Zad.4
+//int maks = 0;
+//Array.Sort(T);
+//Array.Reverse(T);
+//maks = T[1];
+//Console.WriteLine(maks);
+
+//Zad.5
+//int mini = 0;
+//Array.Sort(T);
+//mini = T[1];
+//Console.WriteLine(mini);
+
 //Zad.6
 //int maks = 0;
 //int ilo = 0;
