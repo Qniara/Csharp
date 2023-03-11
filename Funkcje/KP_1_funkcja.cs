@@ -51,3 +51,12 @@
 //    return x / 1.23;
 //}
 //Console.WriteLine(f(a));
+
+//Zad.7
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int f(int x, int y)
+//{
+//    return x % y;
+//}
+//Console.WriteLine(f(a, b));
