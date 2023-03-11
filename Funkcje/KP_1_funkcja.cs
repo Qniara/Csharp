@@ -43,3 +43,11 @@
 //    return ((2 * (x + y) * 2) / 10);
 //}
 //Console.WriteLine(f(a, b));
+
+//Zad.6
+//double a = double.Parse(Console.ReadLine());
+//double f (double x)
+//{
+//    return x / 1.23;
+//}
+//Console.WriteLine(f(a));
