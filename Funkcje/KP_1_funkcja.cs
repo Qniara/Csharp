@@ -15,3 +15,12 @@
 //    return (x + y) * (x + y);
 //}
 //Console.WriteLine(suma(a, b));
+
+//Zad.3
+//double a = double.Parse(Console.ReadLine());
+//double b = double.Parse(Console.ReadLine());
+//double f (double x, double y)
+//{
+//    return Math.Pow((x - y), 3);
+//}
+//Console.WriteLine(f(a, b));
