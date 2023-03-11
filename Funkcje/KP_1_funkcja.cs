@@ -34,3 +34,12 @@
 //    return x * y * z;
 //}
 //Console.WriteLine(f(a, b, c));
+
+//Zad.5
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int f (int x, int y)
+//{
+//    return ((2 * (x + y) * 2) / 10);
+//}
+//Console.WriteLine(f(a, b));
