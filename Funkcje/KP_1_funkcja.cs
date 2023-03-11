@@ -24,3 +24,13 @@
 //    return Math.Pow((x - y), 3);
 //}
 //Console.WriteLine(f(a, b));
+
+//Zad.4
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+//int f (int x, int y, int z)
+//{
+//    return x * y * z;
+//}
+//Console.WriteLine(f(a, b, c));
