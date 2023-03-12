@@ -92,3 +92,35 @@
 //    return 0;
 //}
 //Console.WriteLine(f(a, b, c));
+
+//Zad.6
+//double a = double.Parse(Console.ReadLine());
+//double b = double.Parse(Console.ReadLine());
+//double f (double x, double y)
+//{
+//    bool g = true;
+//    for(double i = 2; i < y; i++)
+//    {
+//        if (y % i == 0)
+//        {
+//            g = false;
+//        }
+//    }
+//    if (g == false)
+//    {
+//        Console.WriteLine("NIE");
+//    }
+//    else
+//    {
+//        if (Math.Pow(x, y) % y == 0)
+//        {
+//            Console.WriteLine("TAK");
+//        }
+//        else
+//        {
+//            Console.WriteLine("NIE");
+//        }
+//    }
+//    return 0;
+//}
+//Console.WriteLine(f(a, b));
