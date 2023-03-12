@@ -45,3 +45,20 @@
 //    return 0;
 //}
 //Console.WriteLine(f(n));
+
+//Zad.4
+//int n = int.Parse(Console.ReadLine());
+//int limit = 20;
+//int f(int x)
+//{
+//    if (x <= limit)
+//    {
+//        Console.WriteLine("TAK");
+//    }
+//    else
+//    {
+//        Console.WriteLine("NIE");
+//    }
+//    return 0;
+//}
+//Console.WriteLine(f(n));
