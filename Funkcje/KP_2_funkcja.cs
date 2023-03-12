@@ -62,3 +62,33 @@
 //    return 0;
 //}
 //Console.WriteLine(f(n));
+
+//Zad.5
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+//int f(int x, int y, int z)
+//{
+//    if (x<z && x>y)
+//    {
+//        Console.WriteLine("TAK");
+//    }
+//    else if (y > z && x > y)
+//    {
+//        Console.WriteLine("TAK");
+//    }
+//    else if (x < z && z < y)
+//    {
+//        Console.WriteLine("TAK");
+//    }
+//    else if (x > z && z < y && y > x)
+//    {
+//        Console.WriteLine("TAK");
+//    }
+//    else
+//    {
+//        Console.WriteLine("NIE");
+//    }
+//    return 0;
+//}
+//Console.WriteLine(f(a, b, c));
