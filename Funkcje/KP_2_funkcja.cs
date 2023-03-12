@@ -124,3 +124,21 @@
 //    return 0;
 //}
 //Console.WriteLine(f(a, b));
+
+//Zad.7
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+//int f (int s,int p, int k)
+//{
+//    if (k - p <= 3 * s)
+//    {
+//        Console.WriteLine("TAK");
+//    }
+//    else
+//    {
+//        Console.WriteLine("NIE");
+//    }
+//    return 0;
+//}
+//Console.WriteLine(f(a, b, c));
