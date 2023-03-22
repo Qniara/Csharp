@@ -1,12 +1,12 @@
-//string[] liczby = System.IO.File.ReadAllLines(@"C:\Users\uczen\liczby.txt");
-//StreamWriter wynik = new(@"C:\Users\uczen\wyniki4.txt");
-//wynik.WriteLine("Zadanie\n");
-//foreach (string line in liczby) 
-//{ 
-//    wynik.WriteLine(line); 
+//string[] liczby = system.io.file.readalllines(@"c:\users\uczen\liczby.txt");
+//streamwriter wynik = new(@"c:\users\uczen\wyniki4.txt");
+//wynik.writeline("zadanie\n");
+//foreach (string line in liczby)
+//{
+//    wynik.writeline(line);
 //}
-//wynik.Flush();
-//wynik.Close();
+//wynik.flush();
+//wynik.close();
 //bool czypie(int x)
 //{
 //    bool flaga = true;
@@ -18,4 +18,14 @@
 //        }
 //    }
 //    return flaga;
+//}
+//int sumacyfr(int n)
+//{
+//    int suma = 0;
+//    while (n > 0)
+//    {
+//        suma += n % 10;
+//        n /= 10;
+//    }
+//    return suma;
 //}
