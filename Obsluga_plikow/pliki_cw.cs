@@ -3,10 +3,10 @@ using System.IO;
 //Czytanie pliku
 //var a = File.ReadAllText(@"C:\Users\admin\Desktop\Popr\C#\pliki\dokument.txt");
 //var b = File.ReadAllLines(@"C:\Users\admin\Desktop\Popr\C#\pliki\dokument.txt");
-////Console.WriteLine(a);
+//Console.WriteLine(a);
 //Console.WriteLine();
 //var x = string.Join(Environment.NewLine, b);
-////Console.WriteLine(x);
+//Console.WriteLine(x);
 
 //Zastepowanie tekstu w pliku
 //Console.WriteLine("Insert name:");
@@ -17,3 +17,10 @@ using System.IO;
 
 //var y = File.ReadAllText($"C:/Users/admin/Desktop/Popr/C#/pliki/dokument-{name}.txt");
 //Console.WriteLine(y);
+
+//Dopisywanie do pliku
+//var files =Directory.GetFiles("C:/Users/admin/Desktop/Popr/C#/pliki/", "*.txt", SearchOption.AllDirectories);
+//foreach(string file in files)
+//{
+//    File.AppendAllText(file, "NIECH ZYJE KROL JULIAN");
+//}
