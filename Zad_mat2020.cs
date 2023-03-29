@@ -13,11 +13,8 @@
 //string[] LINIA = new string[2];
 //foreach (string item in S)
 //{
-//    LINIA=item.Split(" ");
+//    LINIA = item.Split(" ");
 //    L[i] = int.Parse(LINIA[0]);
 //    N[i] = LINIA[1];
 //    i++;
 //}
-
-//// L -> to ma być tablica intów
-//// N -> to ma być tablica stringów
