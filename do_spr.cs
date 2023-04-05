@@ -36,3 +36,14 @@
 //    return 0;
 //}
 //Console.WriteLine(f(n));
+
+// Pliki
+//1
+//using System.IO;
+//var files = Directory.GetFiles($"C:\\Users\\uczen\\Dokumenty\\", "plik.txt", SearchOption.AllDirectories);
+//foreach (string file in files)
+//{
+//    File.AppendAllText(file, DateTime.Now.ToString());
+//}
+
+//2
