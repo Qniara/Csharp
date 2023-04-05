@@ -56,6 +56,7 @@ using System.IO;
 //{
 //    Console.WriteLine(reku1(i));
 //}
+//2
 
 // Pliki
 //1
@@ -66,11 +67,18 @@ using System.IO;
 //}
 
 //2
-//Random r= new Random();
-//var x = 0;
-//var files = Directory.GetFiles("C:/Users/uczen/", "plik.txt", SearchOption.AllDirectories);
-//foreach (var i in files)
-//{
-//    x = r.Next(10, 100);
-//    File.AppendAllText(i, x));
-//}
+Random r = new Random();
+string sciezka = "C:/Users/uczen/plik.txt";
+for (int i=0; i<10; i++)
+{
+    int lb = r.Next(10,100);
+    using (StreamWriter writer = File.AppendText(sciezka))
+    {
+        writer.WriteLine(lb);
+    }
+}
+var x = File.ReadAllText(sciezka);
+var y = File.ReadAllLines(sciezka);
+int[] T = new int[10];
+
+Console.WriteLine(x);
