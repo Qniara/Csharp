@@ -1,3 +1,4 @@
+using System.IO;
 //Funkcje
 //1
 //int n = int.Parse(Console.ReadLine());
@@ -37,13 +38,39 @@
 //}
 //Console.WriteLine(f(n));
 
+//Ciagi
+//1
+//int reku1(int n)
+//{
+//    if (n == 1)
+//    {
+//        return 3;
+//    }
+//    else
+//    {
+//        return reku1(n - 1) + 2;
+//    }
+//}
+//int x = int.Parse(Console.ReadLine());
+//for (int i =1; i <= x; i++)
+//{
+//    Console.WriteLine(reku1(i));
+//}
+
 // Pliki
 //1
-//using System.IO;
-//var files = Directory.GetFiles($"C:\\Users\\uczen\\Dokumenty\\", "plik.txt", SearchOption.AllDirectories);
+//var files = Directory.GetFiles("C:\\Users\\uczen\\Dokumenty\\", "plik.txt", SearchOption.AllDirectories);
 //foreach (string file in files)
 //{
 //    File.AppendAllText(file, DateTime.Now.ToString());
 //}
 
 //2
+//Random r= new Random();
+//var x = 0;
+//var files = Directory.GetFiles("C:/Users/uczen/", "plik.txt", SearchOption.AllDirectories);
+//foreach (var i in files)
+//{
+//    x = r.Next(10, 100);
+//    File.AppendAllText(i, x));
+//}
