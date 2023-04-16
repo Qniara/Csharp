@@ -30,3 +30,11 @@
 //Console.Write(f(x));
 
 //3
+//Console.WriteLine("Insert number: ");
+//int x = int.Parse(Console.ReadLine());
+//int reku(int n)
+//{
+//    if (n == 3) return 1;
+//    else return reku(n - 1) + 2;
+//}
+//Console.WriteLine(reku(x));
