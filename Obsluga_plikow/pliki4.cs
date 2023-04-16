@@ -25,3 +25,16 @@ using System.IO;
 //{
 //    File.AppendAllText(file, "JAJA");
 //}
+
+//var e = @"C:\\Users\\admin\\Desktop\\Popr\\C#\\basia.txt";
+//if (!File.Exists(e))
+//{
+//    File.Create(e);
+//}
+//var e2 = Directory.GetFiles(@"C:\\Users\\admin\\Desktop\\Popr\\C#\\", "basia.txt", SearchOption.TopDirectoryOnly);
+//foreach (var file in e2)
+//{
+//    File.AppendAllText(file, "Siema siema widzu");
+//}
+//var e3 = File.ReadAllText(e);
+//Console.WriteLine(e3);
