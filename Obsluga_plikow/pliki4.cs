@@ -45,3 +45,16 @@ using System.IO;
 //var f3 = f2.Replace("siema", f);
 //var f4 = File.ReadAllText(s);
 //Console.WriteLine(f4);
+
+//var g = @"C:\\Users\\admin\\Desktop\\Popr\\C#\\findus.txt";
+//if (!File.Exists(g))
+//{
+//    File.Create(g);
+//}
+//var g2 = Directory.GetFiles(@"C:\\Users\\admin\\Desktop\\Popr\\C#\\", "findus.txt", SearchOption.TopDirectoryOnly);
+//foreach (var file in g2)
+//{
+//    File.AppendAllText(file, "jaja");
+//}
+//var g3=File.ReadAllText(g);
+//Console.WriteLine(g3);
