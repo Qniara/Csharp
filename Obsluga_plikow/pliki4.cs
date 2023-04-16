@@ -38,3 +38,10 @@ using System.IO;
 //}
 //var e3 = File.ReadAllText(e);
 //Console.WriteLine(e3);
+
+//Console.WriteLine("Napisz: ");
+//var f=Console.ReadLine();
+//var f2=File.ReadAllText(s);
+//var f3 = f2.Replace("siema", f);
+//var f4 = File.ReadAllText(s);
+//Console.WriteLine(f4);
