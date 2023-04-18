@@ -28,3 +28,19 @@
 //    return cena * (1 - rabat / 100);
 //}
 //Console.WriteLine(dajrabat(100, 10));
+
+//Console.WriteLine("Wpisz liczbe: ");
+//int osiem = int.Parse(Console.ReadLine());
+//int funkcja(int x)
+//{
+//    int suma = 0;
+//    int y = 0;
+//    while (x > 0)
+//    {
+//        y = x % 10;
+//        suma = suma + y;
+//        x = x /10;
+//    }
+//    return suma;
+//}
+//Console.WriteLine(funkcja(osiem));
