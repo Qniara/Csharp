@@ -64,6 +64,19 @@ for (int i = 0; i < 20; i++)
 //}
 
 //3. Przez wstawianie
+//int temp;
+//int j;
+//for (int i = 1; i < n; i++)
+//{
+//    temp = T[i];
+//    j=i-1;
+//    while (temp > T[j] && j>0)
+//    {
+//        T[j] = T[j - 1];
+//        j--;
+//    }
+//    T[j-1] = temp;
+//}
 
 // Sortowania w czasie liniowym
 
