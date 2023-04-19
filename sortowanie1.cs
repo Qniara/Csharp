@@ -27,6 +27,23 @@ for (int i = 0; i < 20; i++)
 //}
 
 //2. Przez wybór
+// wybieramy najmniejszy i wstawiamy go na początek
+//int k;
+//int temp = 0;
+//for(int i = 0; i < n; i++)
+//{
+//    k = i;
+//    for(int j = i + 1; j < n; j++)
+//    {
+//        if (T[j] > T[k])
+//        {
+//            k = j;
+//            temp = T[i];
+//            T[i] = T[k];
+//            T[k] = temp;
+//        }
+//    }
+//}
 
 //3. Przez wstawianie
 
