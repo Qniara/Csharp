@@ -45,6 +45,24 @@ for (int i = 0; i < 20; i++)
 //    }
 //}
 
+//wybieramy najmnijeszy i wstawiamy go na koniec
+//int k;
+//int temp;
+//for(int i = n - 1; i > 0; i++)
+//{
+//    k = i;
+//    for(int j = 0; j < i; j++)
+//    {
+//        if (T[j] < T[k])
+//        {
+//            k = j;
+//        }
+//        temp = T[i];
+//        T[i] = T[k];
+//        T[k] = temp;
+//    }
+//}
+
 //3. Przez wstawianie
 
 // Sortowania w czasie liniowym
