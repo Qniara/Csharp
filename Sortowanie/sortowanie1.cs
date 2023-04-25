@@ -1,5 +1,5 @@
 //Stworzenie tablicy 20 losowych liczb od 1 do 20
-Random r = new Random(); 
+Random r = new Random();
 int n = 10;
 int[] T = new int[20];
 for (int i = 0; i < 20; i++)
