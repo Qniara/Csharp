@@ -1,4 +1,4 @@
-//Stworzenie tablicy 10 losowych liczb od 1 do 20
+//Stworzenie tablicy 20 losowych liczb od 1 do 20
 Random r = new Random();
 int n = 10;
 int[] T = new int[20];
