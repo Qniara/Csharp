@@ -81,6 +81,28 @@ for (int i = 0; i < 20; i++)
 // Sortowania w czasie liniowym
 
 //4. Przez zliczanie
+//int[] L = new int[20];
+//for(int i = 0; i < n; i++)
+//{
+//    L[T[i]]++;
+//}
+//for(int i = 0; i < L.Length; i++)
+//{
+//    Console.Write((L[i] + " "));
+//}
+//int j=0;
+//for (int i = 0; i < L.Length; i++)
+//{
+//    if (L[i] > 0)
+//    {
+//        T[j] = i;
+//        for(int k = 0; k < L[i]; k++)
+//        {
+//            T[j] = i;
+//            j++;
+//        }
+//    }
+//}
 
 //5. Kubełkowe
 
