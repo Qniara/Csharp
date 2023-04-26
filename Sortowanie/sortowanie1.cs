@@ -105,6 +105,7 @@ for (int i = 0; i < 20; i++)
 //}
 
 //5. Kubełkowe
+//pominięte - na później
 
 // Przez dzielenie
 
