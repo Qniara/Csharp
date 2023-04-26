@@ -121,12 +121,36 @@ for (int i = 0; i < 20; i++)
 //    int sr = (l + p) / 2;
 //    int il = l;
 //    int ip = sr;
-//    while (il <= ip)
+//    while (il <= ip && ip <= p)
 //    {
 //        if (pom[il] < pom[ip])
 //        {
 //            T[i] = pom[il];
 //            il++;
+//        }
+//        else
+//        {
+//            T[i] = pom[ip];
+//            ip++;
+//        }
+//        i++;
+//    }
+//    if (il > sr)
+//    {
+//        while (ip < p)
+//        {
+//            T[i] = pom[ip];
+//            ip++;
+//            i++;
+//        }
+//    }
+//    else
+//    {
+//        while (il < sr)
+//        {
+//            T[i] = pom[il];
+//            il++;
+//            i++;
 //        }
 //    }
 //}
