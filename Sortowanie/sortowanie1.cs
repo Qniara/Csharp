@@ -110,6 +110,39 @@ for (int i = 0; i < 20; i++)
 // Przez dzielenie
 
 //6. Przez scalanie
+//void scal(int l, int p)
+//{
+//    int[] pom = new int[n];
+//    for (int j = 0; j < T.Length; j++)
+//    {
+//        pom[j] = T[j];
+//    }
+//    int i = l;
+//    int sr = (l + p) / 2;
+//    int il = l;
+//    int ip = sr;
+//    while (il <= ip)
+//    {
+//        if (pom[il] < pom[ip])
+//        {
+//            T[i] = pom[il];
+//            il++;
+//        }
+//    }
+//}
+//void sort(int lewy, int prawy)
+//{
+//    int srodek = (lewy + prawy) / 2;
+//    if (lewy > srodek)
+//    {
+//        sort(lewy, srodek);
+//    }
+//    if (prawy > srodek + 1)
+//    {
+//        sort(prawy, srodek + 1);
+//    }
+//    scal(lewy, prawy);
+//}//XD
 
 //7. Quicksort Hoare
 
