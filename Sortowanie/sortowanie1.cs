@@ -204,27 +204,31 @@ for (int i = 0; i < 20; i++)
 //}
 
 //8. Quicksort Lomuto
-int[] T = new int[10];
-void quicksortLomuto(int lewy, int prawy)
-{
-    int pivot = T[prawy];
-    int i = lewy;
-    for (int k = lewy; k < prawy; k++)
-    {
-        if (T[k] <= pivot)
-        {
-            T[i] = T[k];
-            T[k] = T[i];
-            i = i + 1;
-        }
-    }
-    T[i] = T[prawy];
-    T[prawy] = T[i];
-    if (lewy < i - 1)
-    {
-        quicksortLomuto(lewy, i - 1);
-    }
-
+//int[] T = new int[10];
+//void quicksortLomuto(int lewy, int prawy)
+//{
+//    int pivot = T[prawy];
+//    int i = lewy;
+//    for (int k = lewy; k < prawy; k++)
+//    {
+//        if (T[k] <= pivot)
+//        {
+//            T[i] = T[k];
+//            T[k] = T[i];
+//            i = i + 1;
+//        }
+//    }
+//    T[i] = T[prawy];
+//    T[prawy] = T[i];
+//    if (lewy < i - 1)
+//    {
+//        quicksortLomuto(lewy, i - 1);
+//    }
+//    if (prawy > i + 1)
+//    {
+//        quicksortLomuto(i + 1, prawy);
+//    }
+//}
 
 //Wyświetlanie posortowanej tablicy
 
