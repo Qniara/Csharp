@@ -169,6 +169,39 @@ for (int i = 0; i < 20; i++)
 //}//XD
 
 //7. Quicksort Hoare
+//int[] T=new int[10];
+//void quicksortHoare(int lewy, int prawy)
+//{
+//    int i=lewy; 
+//    int j=prawy;
+//    int pivot = T[(lewy + prawy) / 2];
+//    while (i <= j)
+//    {
+//        while (T[i] < pivot)
+//        {
+//            i = i + 1;
+//        }
+//        while (T[j] < pivot)
+//        {
+//            j = j - 1;
+//        }
+//        if (i <= j)
+//        {
+//            T[i] = T[j];
+//            T[j] = T[i];
+//            i = i + 1;
+//            j = j - 1;
+//        }
+//    }
+//    if(lewy < j)
+//    {
+//        quicksortHoare(lewy, j);
+//    }
+//    if(prawy > i)
+//    {
+//        quicksortHoare(i, prawy);
+//    }
+//}
 
 //8. Quicksort Lomuto
 
