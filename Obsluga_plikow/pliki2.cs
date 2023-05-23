@@ -24,3 +24,7 @@ using System.IO;
 //{
 //    File.AppendAllText(file, "NIECH ZYJE KROL JULIAN");
 //}
+
+var files = Directory.GetFiles(sciezka, "nazwa pliku", Search.Option.AllDirectories);
+foreach(string file in files)
+  File.AppendAlltext(file, "text);
