@@ -71,15 +71,6 @@
 //    File.WriteAllText(file, T[]);
 //}
 
-
-
-
-
-
-
-
-
-
 //1 z kartki tej drugiej
 //int[] T = new int[50];
 //int i = 0;
