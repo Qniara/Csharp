@@ -36,3 +36,5 @@
 //    ilo = ilo / ilo2;
 //    Console.WriteLine(ilo);
 //}
+
+//Zad.2
