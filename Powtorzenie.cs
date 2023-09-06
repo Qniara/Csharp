@@ -109,3 +109,22 @@
 //        }
 //    }
 //}
+
+//W tablicy 30 losowych liczb 3 cyfrowych znjadź ilość wielokrotności liczby 17(zapisz te liczby do listy wynikowej)
+//using System.Collections;
+//int[] T = new int[30];
+//Random r = new Random();
+//ArrayList L = new ArrayList();
+//for(int i =0;i<30; i++)
+//{
+//    T[i] = r.Next(100,1000);
+//    Console.Write(T[i] + " ");
+//    if (T[i] % 17 == 0)
+//    {
+//        L.Add(T[i]);
+//    }
+//}
+//foreach(int i in L)
+//{
+//    Console.Write(i + " ");
+//}
