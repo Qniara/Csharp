@@ -128,3 +128,22 @@
 //{
 //    Console.Write(i + " ");
 //}
+
+//Wypisz sumy kolejnych ramek macierzy kwadrotowej o n parzystym
+int[,] T = new int[8,8];
+Random r= new Random();
+for(int i=0;i<8; i++)
+{
+    for(int j=0;j<8; j++)
+    {
+        T[i, j] = r.Next(1, 10);
+    }
+}
+for(int i=0; i<8; i++)
+{
+    for(int j=0;j <8; j++)
+    {
+        Console.Write(T[i, j]+"   ");
+    }
+    Console.WriteLine("");
+}
