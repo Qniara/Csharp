@@ -148,7 +148,7 @@
 //    }
 //    Console.WriteLine("");
 //}
-//List<int> S = new;
+//List<int> S = new List<int>;
 //int suma = 0;
 //int n = 8;
 //for (int i = 0; i < n / 2; i++)
