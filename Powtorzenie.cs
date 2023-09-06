@@ -35,3 +35,15 @@
 //    Console.WriteLine(a);
 //}
 //nwd(a, b);
+
+//modulo
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int pom;
+//while (b > 0)
+//{
+//    pom = b;
+//    b = a % b;
+//    a = pom;
+//}
+//Console.WriteLine(a);
