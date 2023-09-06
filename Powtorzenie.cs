@@ -83,3 +83,29 @@
 //{
 //    Console.Write(T[i] + " ");
 //}
+
+//Wypisz wszystkie pary licz zaprzyjaźnionych z przedziału od 1 do 10000
+//int sumcia(int x)
+//{
+//    int suma=0;
+//    for (int i = 1; i < x; i++)
+//    {
+//        if (x % i == 0)
+//        {
+//            suma = suma + i;
+//        }
+//    }
+//    return suma;
+//}
+//for (int i = 1; i <= 10000; i++)
+//{
+//    for(int j = 1; j <= 10000; j++)
+//    {
+//        int x = sumcia(j);
+//        int y = sumcia(i);
+//        if (i != j && y==j && x==i)
+//        {
+//            Console.WriteLine(i + " " + j);
+//        }
+//    }
+//}
