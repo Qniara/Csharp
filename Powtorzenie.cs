@@ -130,34 +130,32 @@
 //}
 
 //Wypisz sumy kolejnych ramek macierzy kwadrotowej o n parzystym
-using System.Collections;
-int[,] T = new int[8,8];
-Random r= new Random();
-for(int i=0;i<8; i++)
-{
-    for(int j=0;j<8; j++)
-    {
-        T[i, j] = r.Next(1, 10);
-    }
-}
-for(int i=0; i<8; i++)
-{
-    for(int j=0;j <8; j++)
-    {
-        Console.Write(T[i, j]+"   ");
-    }
-    Console.WriteLine("");
-}
-
-//sposób 1 -> sumami
-//ArrayList S = new ArrayList();
+//using System.Collections;
+//int[,] T = new int[8,8];
+//Random r= new Random();
+//for(int i=0;i<8; i++)
+//{
+//    for(int j=0;j<8; j++)
+//    {
+//        T[i, j] = r.Next(1, 10);
+//    }
+//}
+//for(int i=0; i<8; i++)
+//{
+//    for(int j=0;j <8; j++)
+//    {
+//        Console.Write(T[i, j]+"   ");
+//    }
+//    Console.WriteLine("");
+//}
+//List<int> S = new;
 //int suma = 0;
 //int n = 8;
-//for(int i = 0; i < n / 2; i++)
+//for (int i = 0; i < n / 2; i++)
 //{
-//    for(int j=0;j<n-2-i; j++)
+//    for (int j = 0; j < n - 2 - i; j++)
 //    {
-//        for(int k = n / 2 - i; k < n / 2 + i; k++)
+//        for (int k = n / 2 - i; k < n / 2 + i; k++)
 //        {
 //            suma = suma + T[j, k];
 //        }
@@ -165,7 +163,13 @@ for(int i=0; i<8; i++)
 //    S.Add(suma);
 //}
 //Console.WriteLine();
-//foreach(var s in S)
+//foreach (var s in S)
 //{
 //    Console.WriteLine(s);
+//}
+//int[] L = S.ToArray();
+
+//for(int i = 0; i < S.Count; i++)
+//{
+//    Console.WriteLine(S[i]);
 //}
