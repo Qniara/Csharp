@@ -130,6 +130,7 @@
 //}
 
 //Wypisz sumy kolejnych ramek macierzy kwadrotowej o n parzystym
+using System.Collections;
 int[,] T = new int[8,8];
 Random r= new Random();
 for(int i=0;i<8; i++)
@@ -147,3 +148,24 @@ for(int i=0; i<8; i++)
     }
     Console.WriteLine("");
 }
+
+//sposób 1 -> sumami
+//ArrayList S = new ArrayList();
+//int suma = 0;
+//int n = 8;
+//for(int i = 0; i < n / 2; i++)
+//{
+//    for(int j=0;j<n-2-i; j++)
+//    {
+//        for(int k = n / 2 - i; k < n / 2 + i; k++)
+//        {
+//            suma = suma + T[j, k];
+//        }
+//    }
+//    S.Add(suma);
+//}
+//Console.WriteLine();
+//foreach(var s in S)
+//{
+//    Console.WriteLine(s);
+//}
