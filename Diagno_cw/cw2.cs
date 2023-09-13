@@ -167,6 +167,81 @@ int NWW(int x, int y)
 //znaleźć sobie miejsce na ławce.
 //Niech k oznacza największą liczbę osób siedzących na jednej ławce (po przyjściu tych dodatkowych m osób). 
 //Jaka jest minimalna, a jaka maksymalna wartość k?
-
-
-Console.WriteLine("DUPA");
+//int n = 3;
+//int a =int.Parse(Console.ReadLine());
+//int b =int.Parse(Console.ReadLine());
+//int c =int.Parse(Console.ReadLine());
+//int m= int.Parse(Console.ReadLine());
+//int[] T = new int[3];
+//T[0] = a;
+//T[1] = b;
+//T[2] = c;
+//int maks = 0;
+//for(int i = 0; i < T.Length; i++)
+//{
+//    if (maks < T[i])
+//    {
+//        maks = T[i];
+//    }
+//}
+//maks = maks + m;
+//Console.WriteLine("Maksymalnie mozze usiasc na jednej lawce " + maks + "osob");
+//int k = 0;
+//if (a == b && b == c)
+//{
+//    int temp = m / 3;
+//    a = a + temp;
+//    b = b + temp;
+//    c = c + temp;
+//    m = m - temp * 3;
+//    a = a + m;
+//    Console.WriteLine("Najmiejsza liczba to  " + b);
+//}
+//else
+//{
+//    if(a>b && a > c)
+//    {
+//        int temp1 = a-b;
+//        int temp2 = a-c;
+//        b = b + temp1;
+//        c=c + temp2;
+//        m=m-temp2-temp1;
+//        int temp = m / 3;
+//        a = a + temp;
+//        b = b + temp;
+//        c = c + temp;
+//        m = m - temp * 3;
+//        a = a + m;
+//        Console.WriteLine("Najmiejsza liczba to  " + b);
+//    }
+//    if (b > a && b > c)
+//    {
+//        int temp1 = b - a;
+//        int temp2 = b - c;
+//        a = a + temp1;
+//        c = c + temp2;
+//        m = m - temp2 - temp1;
+//        int temp = m / 3;
+//        a = a + temp;
+//        b = b + temp;
+//        c = c + temp;
+//        m = m - temp * 3;
+//        a = a + m;
+//        Console.WriteLine("Najmiejsza liczba to  " + b);
+//    }
+//    if (c > b && c > a)
+//    {
+//        int temp1 = a - b;
+//        int temp2 = a - c;
+//        b = b + temp1;
+//        a = a + temp2;
+//        m = m - temp2 - temp1;
+//        int temp = m / 3;
+//        a = a + temp;
+//        b = b + temp;
+//        c = c + temp;
+//        m = m - temp * 3;
+//        a = a + m;
+//        Console.WriteLine("Najmiejsza liczba to  " + b);
+//    }
+//}
