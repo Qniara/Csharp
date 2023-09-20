@@ -1,3 +1,4 @@
+using System.Collections.Concurrent;
 using System.Data;
 
 int NWD(int x, int y)
@@ -143,6 +144,35 @@ int NWW(int x, int y)
 //Console.WriteLine(litera);
 
 //6. Znajdź trzy takie liczby, których suma, a także suma każdej pary tych liczb jest kwadratem innej liczby.
+//int x = 0;
+//int a = 3;
+//while (x == 3)
+//{
+//    for (int b = 2; b < a; b++)
+//    {
+//        for (int c = 1; c < b; c++)
+//        {
+//            for(int i = 0; i < a + b + c; i++)
+//            {
+//                for (int j = 0; j < a + b + c; j++)
+//                {
+//                    for (int g = 0; g < a + b + c; g++)
+//                    {
+//                        for (int h = 0; h < a + b + c; h++)
+//                        {
+//                            if(a+b+c==i*i && a+b==j*j && b+c==g*g && c+a == h * h)
+//                            {
+//                                Console.WriteLine(a + ", " + b + ", " + c);
+//                                x += 3;
+//                            }
+//                        }
+
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
 
 //7. Dwie wieżyce, jedna wysokości 30 stóp, druga 40 stóp, oddalone są od siebie o 50 stóp. 
 //Pomiędzy nimi znajduje się wodotrysk, do którego zlatują dwa ptaki z wierzchołków obu wieżyc 
@@ -175,9 +205,9 @@ int NWW(int x, int y)
 //int p = int.Parse(Console.ReadLine());
 //int k = int.Parse(Console.ReadLine());
 //int ilosc = 0;
-//for(int i = p; i <= k; i++)
+//for (int i = p; i <= k; i++)
 //{
-//    if(i%7==0 || Suma(i) % 7 == 0)
+//    if (i % 7 == 0 || Suma(i) % 7 == 0)
 //    {
 //        ilosc = ilosc + 1;
 //    }
