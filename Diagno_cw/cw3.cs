@@ -14,13 +14,14 @@ bool CzyPie(int x)
 //int[,] A = new int[a, b];
 //int[,] B = new int[c, d];
 //Random r = new Random();
+//int iloczyn = 1;
 //if (a == d)
 //{
 //    for (int i = 0; i < a; i++)
 //    {
-//        for(int j = 0; j < b; j++)
+//        for (int j = 0; j < b; j++)
 //        {
-//            A[i, j] = r.Next(1,100);
+//            A[i, j] = r.Next(1, 100);
 //        }
 //    }
 //    for (int i = 0; i < c; i++)
@@ -30,6 +31,24 @@ bool CzyPie(int x)
 //            A[i, j] = r.Next(1, 100);
 //        }
 //    }
+//    for (int i = 0; i < a; i++)
+//    {
+//        for (int j = 0; j < b; j++)
+//        {
+//            for(int k = 0; k < c; k++)
+//            {
+//                for(int l = 0; l < d; l++)
+//                {
+//                    iloczyn = iloczyn * (A[i, j] * B[k, l]);
+//                }
+//            }
+//        }
+//    }
+//    Console.WriteLine(iloczyn);
+//}
+//else
+//{
+//    Console.WriteLine("Nie da sie tego zrobic na takich wymiarach");
 //}
 
 //2. Napisz algorytm, który sprawdzi czy gdzieś w macierzy 10x10 losowych liczb dwucyfrowych
