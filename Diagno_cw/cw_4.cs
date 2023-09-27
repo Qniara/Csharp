@@ -42,3 +42,12 @@ Console.WriteLine("Dupa <3");
 //    w = w + (a[i] - 48) * (int)Math.Pow(2, a.Length - i - 1);
 //}
 //Console.WriteLine(w);
+
+//int p =int.Parse(Console.ReadLine());
+//string w = "";
+//while (p > 0)
+//{
+//    w = p % 2 + w;
+//    p = p / 2;
+//}
+//Console.WriteLine(w);
