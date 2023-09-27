@@ -43,6 +43,7 @@ Console.WriteLine("Dupa <3");
 //}
 //Console.WriteLine(w);
 
+//wariant 1 dec->bin
 //int p =int.Parse(Console.ReadLine());
 //string w = "";
 //while (p > 0)
@@ -51,3 +52,15 @@ Console.WriteLine("Dupa <3");
 //    p = p / 2;
 //}
 //Console.WriteLine(w);
+
+//wariant 2 -rekurencja
+//void d2b(int p)
+//{
+//    if(p == 0)
+//    {
+//        return;
+//    }
+//    d2b(p/2);
+//    Console.Write(p%2);
+//}
+//d2b(11);
