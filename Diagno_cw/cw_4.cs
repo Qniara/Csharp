@@ -64,3 +64,27 @@ Console.WriteLine("Dupa <3");
 //    Console.Write(p%2);
 //}
 //d2b(11);
+
+//int[,] T = new int[20, 20];
+//Random r= new Random();
+//for(int i = 0; i < 20; i++)
+//{
+//    for(int j = 0; j < 20; j++)
+//    {
+//        T[i, j] = r.Next(0,100);
+//    }
+//}
+//int suma = 0;
+//int ilosc = 0;
+//for (int i = 0; i < 20; i++)
+//{
+//    for (int j = 1; j < 19; j++)
+//    {
+//        suma = T[i, j - 1] + T[i, j + 1];
+//        if (suma == T[i, j])
+//        {
+//            ilosc++;
+//        }
+//    }
+//}
+//Console.WriteLine(ilosc);
