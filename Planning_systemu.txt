@@ -1,0 +1,19 @@
+1.	Planowanie systemu
+Logoalkolator ma za zadanie sprawdzić czy użytkownik jest trzeźwy, zalogować go i wykonać podstawowe obliczenia. Program po podaniu nazwy użytkownika będzie sprawdzał czy podane hasło jest poprawne, następnie wygeneruje przykładowe proste działanie do wykonania przez użytkownika w celu sprawdzenia jego trzeźwości. Jeśli przejdzie test, może zacząć korzystać z kalkulatora. Jeśli użytkownik źle odpowie, kalkulator wyświetla błąd.
+
+2.	Analiza systemu
+Części składowe:
+-logowanie
+-sprawdzanie trzeźwości 
+-obliczanie
+-wylogowanie
+3.	Projekt systemu
+-User się loguje
+-User wykonuje zadanie
+-User korzysta z kalkulatora
+- Funkcje z dużej litery
+- Zmienne z małej litery
+4.	Impementacja
+Niemo
+5.	Wdrażanie
+Niemo
