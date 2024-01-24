@@ -1,4 +1,5 @@
-//NIE CAŁE, DO DOKONCZENIA
+//Zad.2
+//Wypisać krawedzie których nie ma
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,12 +26,10 @@ namespace ConsoleApp1
         {
             foreach(var item in polacz)
             {
-                Wierzcholki[w].DodajPolaczenie(item);
+                Wierzcholki[w].DodajPolaczenia(item);
             }
         }
     }
-
-    //wypisz krawedzie 
     public void WypiszKrawedzie(int w)
     {
         Wierzcholki[w].WypiszPoloczenia();
@@ -47,6 +46,7 @@ namespace ConsoleApp1
             for(int i = 0; i < 6; i++)
             {
                 g.WypiszKrawedzie(i);
+                Console.WriteLine();
             }
 
             Console.ReadLine();
