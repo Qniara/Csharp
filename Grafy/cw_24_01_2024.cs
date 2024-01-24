@@ -1,3 +1,4 @@
+//NIE CAŁE, DO DOKONCZENIA
 using System;
 using System.Collections.Generic;
 using System.Linq;
