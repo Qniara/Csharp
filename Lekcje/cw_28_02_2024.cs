@@ -58,11 +58,86 @@
 
 //Zad.3
 //Stwórz listę 6 losowych słów składających się z 3 różnych samogłsek (List, ArrayList)
+//List<char> LS = new List<char> { 'a', 'e', 'i', 'o', 'u', 'y' };
+//List<string> S = new List<string>();
+//List<char> LSC;
+//Random r = new Random();
+//int numer;
+//for (int i = 0; i < 6; i++)
+//{
+//    LSC = LS.ToList();
+//    S.Add("");
+//    for(int j = 0; j < 3; j++)
+//    {
+//        numer = r.Next(0, LS.Count);
+//        S[i] = S[i] + LSC[numer];
+//        LSC.RemoveAt(numer);
+//    }
+//}
+//foreach(var item in S)
+//{
+//    Console.Write(item + " "); 
+//}
 
 //Zad.4
 //Stwórz kolejkę(queue) 4 losowych liczb fibonacciego < 100 (mogą się powtarzać). 
 //Wyświetl kolejkę, usuń z niej 2 elementy i wyświetl pozostałe 2
+//using System.Collections;
+//int fibo(int n)
+//{
+//    if (n == 1) return 1;
+//    if (n == 2) return 2;
+//    return fibo(n - 1) + fibo(n - 2);
+//}
+//ArrayList FIBO = new ArrayList();
+//int i = 1;
+//while (fibo(1) < 100)
+//{
+//    FIBO.Add(fibo(i));
+//    i++;
+//}
+//foreach (var item in FIBO)
+//{
+//    Console.WriteLine(item);
+//}
+//Random r = new Random();
+//Queue q = new Queue();
+//for(i = 0; i < 4; i++)
+//{
+//    q.Enqueue(FIBO[r.Next(0, FIBO.Count)]);
+//}
+//foreach (var item in q)
+//{
+//    Console.Write(item + " ");
+//}
+//Console.WriteLine("\n");
+//q.Dequeue();
+//q.Dequeue();
 
 //Zad.5
 //Stwórz stos (stack) 5 kolejnych dwucyfrowych liczb pierwszych.
 //Wyświetl stos, usuń 3 wyrazy i zwów wyświetl stos.
+//using System.Collections;
+//int[] T = new int[5] { 11, 13, 17, 19, 23 };
+//Stack stack = new Stack();
+//for(int i = 0; i < 5; i++)
+//{
+//    stack.Push(T[i]);
+//}
+//foreach(var item in stack)
+//{
+//    Console.Write(item + " ");
+//}
+//Console.WriteLine("\n");
+//for(int j = 0; j < stack.Count; j++)
+//{
+//    Console.Write(stack.ElementAt(j) + " ");
+//}
+//Console.WriteLine("\n");
+//stack.Pop();
+//stack.Pop();
+//stack.Pop();
+//foreach (var item in stack)
+//{
+//    Console.Write(item + " ");
+//}
