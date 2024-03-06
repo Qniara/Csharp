@@ -28,17 +28,25 @@ D1["pupa"] = new List<int>() { 1, 5, 8 };
 //}
 
 //Zad.6
-Dictionary<int, List<int>> G = new Dictionary<int, List<int>>();
-int n = int.Parse(Console.ReadLine());
-for (int i = 0; i < n; i++)
-{
-    G.Add(i + 1, new List<int>());
-}
-int k = int.Parse(Console.ReadLine());
-string[] liczby = new string[2];
-for (int i = 0;i < k; i++)
-{
-    liczby = Console.ReadLine().Split();
-    G[int.Parse(liczby[0])].Add(int.Parse(liczby[1]));
-    G[int.Parse(liczby[1])].Add(int.Parse(liczby[0]));
-}
+//Dictionary<int, List<int>> G = new Dictionary<int, List<int>>();
+//int n = int.Parse(Console.ReadLine());
+//for (int i = 0; i < n; i++)
+//{
+//    G.Add(i + 1, new List<int>());
+//}
+//int k = int.Parse(Console.ReadLine());
+//string[] liczby = new string[2];
+//for (int i = 0;i < k; i++)
+//{
+//    liczby = Console.ReadLine().Split();
+//    G[int.Parse(liczby[0])].Add(int.Parse(liczby[1]));
+//    G[int.Parse(liczby[1])].Add(int.Parse(liczby[0]));
+//}
+//foreach(var item in G)
+//{
+//    Console.WriteLine(item.Key + " - ");
+//    foreach(var item1 in item.Value)
+//    {
+//        Console.WriteLine(item + " ");
+//    }
+//}
