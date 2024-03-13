@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace cw_13_03_2024_2
 {
@@ -52,6 +53,45 @@ namespace cw_13_03_2024_2
             this.wiek = awiek;
             //wiek=awiek tez zadziala
 
+        }
+    }
+    class KoloZapas { }
+    class Auto
+    {
+        KoloZapas kolo;
+        public void setKolo(KoloZapas kolo)
+        {
+            this.kolo = kolo;
+        }
+    }
+    class Nauczyciel { }
+    class Szkola
+    {
+        Nauczyciel nau;
+        void NauDoPracy(Nauczyciel n)
+        {
+            nau = n;
+        }
+    }
+    class Klient { }
+    class Produkt { }
+    class Dostawa { }
+    class Zamowienia
+    {
+        Klient k;
+        Produkt p;
+        Dostawa d;
+        public void setKlient(Klient K)
+        {
+            this.k = K;
+        }
+        public void setProdukt(Produkt P)
+        {
+            this.p = P;
+        }
+        public void setDostawa(Dostawa D)
+        {
+            this.d = D;
         }
     }
     internal class Program
