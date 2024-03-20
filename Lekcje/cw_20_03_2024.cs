@@ -105,37 +105,46 @@
 
 //2. Utworz ArrayListe A zawierającą 10 losowych słów 3-literowych.
 //Wypisz słowo o największej sumie kodów ASCII jego liter
-//using System.Collections;
-//ArrayList A = new ArrayList();
+//int[] T = new int[5];
 //Random r = new Random();
-//string s = "";
-//int suma = 0;
+//List<int> W = new List<int>();
 //int maks = 0;
-//int x = 0;
-//int[] T = new int[10];
-//for (int i = 0; i < 10; i++)
+//int min = 0;
+//for (int i = 0; i < 5; i++)
 //{
-//    for(int j = 0; j < 3; j++)
-//    {
-//        int a = r.Next(65, 91);
-//        suma = suma + a;
-//        s = s + (Convert.ToChar(a)).ToString();
-//    }
-//    T[i] = suma;
-//    A.Add(s);
+//    T[i] = r.Next(100);
+//    Console.Write(T[i] + " ");
 //}
-//for(int i = 0;i < 10; i++)
+//for(int i = 0;i < 5; i++)
 //{
-//    if (maks < T[i])
+//    if (T[i] > maks)
 //    {
-//        maks = T[i];
-//        x = i;
+//        maks= T[i];
+//    }
+//    if(i==0) min = i;
+//    if (T[i] < min)
+//    {
+//        min = T[i];
 //    }
 //}
-//Console.WriteLine($"Wyraz {A[x]} ma najwieksza sume kodow ascii.");
-
-
+//Console.WriteLine();
+//for(int i= min; i< maks-1; i++)
+//{
+//    if (i % 2 == 0)
+//    {
+//        W.Add(i);
+//        Console.Write(i + " ");
+//    }
+//}
 
 //3.Stworz liste L skladajaca sie z 10 list i 10 losowych cyfr.
 //Oblicz sume najwiekszych cyfr w listach listy L oraz 
-//sprawdz czy istenieje
+//sprawdz czy istenieje taka lista gdzie wylosowano 3 identyczne cyfry
+
+//4. Stworz slownik D z kluczami i=1,2,3... n (user podaje n)
+//oraz wartosciami w postaci listy maksymalnie (i-1)-cyfrowych dzielnikow
+//liczby 10 do potegi i dla kazdego z kluczy
+
+//5.Korzystajac z slownika utworz graf G zbudowany z 
+//n wierzcholkow i k krawedzi. Policz wierzcholki nie
+//mające zadnych somsiadow
