@@ -61,3 +61,53 @@ namespace cw_10_04_2024
         }
     }
 }
+-----------------------------------------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace cw_10_04_2024
+{
+    class WashingMaschine
+    {
+        Washing w;
+        Spinning s;
+        Rinsing r;
+        public void StartWashing() { }
+        public void Piesz(Washing w, Rinsing r, Spinning s)
+        {
+            this.w = w;
+            this.s = s;
+            this.r = r;
+        }
+    }
+    class Client
+    {
+        WashingMaschine wm;
+        public void setWashingMaschine(WashingMaschine wmm)
+        {
+            wm = wmm;
+        }
+    }
+    class Washing : WashingMaschine
+    {
+        public void Wash() { }
+    }
+    class Rinsing
+    {
+        public void Rinse() { }
+    }
+    class Spinning
+    {
+        public void Spin() { }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+        }
+    }
+}
