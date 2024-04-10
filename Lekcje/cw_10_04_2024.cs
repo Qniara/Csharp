@@ -145,3 +145,31 @@ namespace cw_04_10_2024
         void build() { }
     }
 }
+------------------------------------------------------------------------------------------------------
+    namespace cw_04_10_2024
+{
+    abstract class GameAI
+    {
+        public virtual void takeTurn() { }
+        public virtual void collectResources() { }
+        public abstract void buildStructures() { }
+        public abstract void buildUnits() { }
+        public abstract void sendScouts() { }
+        sealed override void attack()
+        {
+            buildStructures();
+            sendScouts();
+            sendWorriors();
+            buildUnits();
+        }
+        public abstract void sendWorriors(string position) { }
+    }
+    class MonstersAI
+    {
+
+    }
+    class OrcsAI
+    {
+
+    }
+}
