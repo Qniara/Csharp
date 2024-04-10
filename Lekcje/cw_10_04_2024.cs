@@ -111,3 +111,37 @@ namespace cw_10_04_2024
         }
     }
 }
+------------------------------------------------------------------------------------------------------------
+namespace cw_04_10_2024
+{
+    class FacedForCar
+    {
+        Car bmw;
+        Car chevrolet;
+        Car renault;
+        FacedForCar() { }
+        public void BuildBMW() { }
+        public void BuildChevrolet() { }
+        public void BuildRenault() { }
+    }
+    class FacadeJavaPatternExampleMain
+    {
+        void Main() { }
+    }
+    class Car
+    {
+        void build() { }
+    }
+    class Renault : Car
+    {
+        void build() { }
+    }
+    class BMW : Car
+    {
+        void build() { }
+    }
+    class Chevrolet : Car
+    {
+        void build() { }
+    }
+}
