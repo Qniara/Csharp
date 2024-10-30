@@ -1,0 +1,46 @@
+namespace cw_30_10_2024
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        int SumaCyfr(int n)
+        {
+            int suma = 0;
+            while (n > 0)
+            {
+                suma = suma + n % 10;
+                n = n / 10;
+            }
+            return suma;
+        }
+        bool CzySigma(int n)
+        {
+            if (n % 10 == n % 100)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string data = textBox1.Text;
+            int n = int.Parse(data);
+            int suma = SumaCyfr(n);
+            if (CzySigma(suma))
+            {
+                MessageBox.Show("Tak");
+            }
+            else
+            {
+                MessageBox.Show("Nie");
+            }
+        }
+    }
+}
